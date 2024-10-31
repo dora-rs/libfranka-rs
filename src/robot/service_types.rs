@@ -67,7 +67,7 @@ use serde_repr::{Deserialize_repr, Serialize_repr};
 use crate::network::MessageCommand;
 
 pub static PANDA_VERSION: u16 = 5;
-pub static FR3_VERSION: u16 = 6;
+pub static FR3_VERSION: u16 = 7;
 pub static COMMAND_PORT: u16 = 1337;
 
 pub trait RobotHeader: MessageCommand + Serialize + Debug + Copy + Clone {}
